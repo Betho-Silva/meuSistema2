@@ -12,8 +12,11 @@ import { Component } from '@angular/core';
 
   <div class="container border  container-forms">
     <div class="row border">
-      <div class="col-12">
+      <div class="col-11">
         <h1>Formulário de Cadastro de Usuários</h1>
+      </div>
+      <div class="col-1">
+      <button type="button" class="btn-close btn-close-dark" aria-label="Close" (click)="closeForm()"></button>
       </div>
     </div>
     <div class="row border">
@@ -84,6 +87,8 @@ import { Component } from '@angular/core';
         <button class="btn btn-danger m-1 ">Cancelar</button>
         <button class="btn btn-warning m-1 ">Limpar</button>
         <button class="btn btn-primary m-1 ">Salvar</button>
+        <button class="btn btn-success m-1 ">Alterar</button>
+        <button class="btn btn-danger m-1 ">Excluir</button>
       </div>
     </div>
 
@@ -102,5 +107,9 @@ import { Component } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
+
+  closeForm() {
+    window.location.reload()
+  }
 
 }

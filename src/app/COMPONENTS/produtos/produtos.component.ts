@@ -14,8 +14,11 @@ import { Component } from '@angular/core';
 
   <div class="container border  container-forms">
     <div class="row border">
-      <div class="col-12">
+      <div class="col-11">
         <h1>Formulário de Cadastro de Produtos</h1>
+      </div>
+      <div class="col-1">
+      <button type="button" class="btn-close btn-close-dark" aria-label="Close" (click)="closeForm()"></button>
       </div>
     </div>
     <div class="row border">
@@ -80,5 +83,9 @@ import { Component } from '@angular/core';
   styleUrl: './produtos.component.css'
 })
 export class ProdutosComponent {
+
+  closeForm(){
+    window.location.reload()
+  }
 
 }
