@@ -1,0 +1,11 @@
+{
+    "clientes": [
+      { "id": "1", "title": "a title", "views": 100 }
+    ],
+    "produtos": [
+      {}
+    ],
+    "usuarios": [
+      {}
+    ]
+  }
