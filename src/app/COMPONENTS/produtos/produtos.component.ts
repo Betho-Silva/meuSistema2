@@ -80,6 +80,7 @@ import { ProdutosService } from '../../SERVICES/produtos.service';
         <button class="btn btn-primary m-1 " (click)="SalvarProdutos()">Salvar</button>
         <button class="btn btn-success m-1 " (click)="AlterarProdutos()">Alterar</button>
         <button class="btn btn-danger m-1 " (click)="DeletarProdutos()">Excluir</button>
+        <button class="btn btn-primary m-1 " (click)="BuscaProdutos()">Buscar</button>
       </div>
       </div>
     </div>

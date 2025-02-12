@@ -13,9 +13,14 @@ export class ClientesService {
   constructor(private http: HttpClient) { }
 
 
+  ///https://designer.mocky.io/design/confirmation
+
   //apiBase:string = "https://my-json-server.typicode.com/Betho-Silva/bancosistemaangular/clientes"
-  ///apiBase:string = "http://localhost:3000/clientes"
+  //apiBase:string = "http://localhost:3000/clientes"
   apiBase:string = "https://67a8dd476e9548e44fc2418c.mockapi.io/sistema2/clientes"
+    //apiBase:string = "https://testapi.io/api/Betho-Silva/clientes";
+  ///apiBase:string = "https://run.mocky.io/v3/5d2bdede-bc67-4025-9d43-c5074d8ca86e/clientes";
+  //apiBase:string = 'https://api.mockapi.com/clientes'
 
 
 

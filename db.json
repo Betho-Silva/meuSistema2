@@ -1,23 +1,11 @@
 {
     "clientes": [
-      { "id":0,
-      "nome":"Ana",
-      "nasciemnto":"2000-01-10",
-      "cpf":"1234567890",
-      "rua":"b",
-      "telefone":"987654321",
-      "celular":"918273645",
-      "numero":"12",
-      "bairro":"ind",
-      "cep":"12345678",
-      "email":"asdf@lkjh.com"
-    
-    }
+      
     ],
     "produtos": [
-      {}
+      
     ],
     "usuarios": [
-      {}
+      
     ]
   }
